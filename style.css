@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Inter;
+    background-color: azure;
+}
+.conteiner{
+    width: 1400px;
+    margin: 0 auto;
+    border: 2px solid blueviolet;
+    position: relative;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 15px 40px;
+    background-color: #C92071;
+    border-radius: 8px;
+    color: white;
+    border-color: transparent;
+}
+input{
+    width: 560px;
+    height: 60px;
+    color: #666666;
+    border-color: transparent;
+}
+.home{
+    margin-top: 50px;
+    display: flex;
+}
+.card{
+    margin-right: 32px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.hero-text{
+    margin-top: 80px;
+}
+.hero-text h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+.hero-text-p1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #F6AA1C;
+}
+.hero-text p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.img-absolute{
+    position: absolute;
+    margin-right: 40px;
+}
+.second-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.second-card1{
+    width: 400px;
+    height: 250px;
+    background-color: #C4C4C4;
+    background-image: url('./img/Mask\ group\ \(11\).png');
+    background-repeat: no-repeat;
+}
+.second-card2{
+    width: 400px;
+    height: 250px;
+    background-color: #C4C4C4;
+    background-image: url('./img//Mask\ group\ \(12\).png');
+    background-repeat: no-repeat;
+}
+.second-card3{
+    width: 400px;
+    height: 250px;
+    background-color: #C4C4C4;
+    background-image: url('./img/d9db11953a2d185d37246bb1f500c957\ 1.png');
+    background-repeat: no-repeat;
+}
+h4{
+    font-weight: 700;
+    font-size: 24px;
+}
+.second-category{
+    margin-top: 100px;
+}
+.second-categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.category{
+    width: 100px;
+    height: 130px;
+}
+.thirst-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.thirst-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: white;
+}
+.price{
+    display: flex;
+}
+.price p{
+    margin-right: 10px;
+}
+.th-card h6{
+    background-color: #E7FF86;
+    padding: 5px, 15px, 5px, 15px;
+    border-radius: 5px;
+    width: 90px;
+}
+#forth{
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    margin-top: 120px;
+    color: white;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.sos{
+    display: flex;
+}
+.sos img{
+    margin-right: 40px;
+}
+.footer-text{
+    margin: 35px 0;
+}
